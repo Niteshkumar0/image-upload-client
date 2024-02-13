@@ -11,7 +11,7 @@ const Home = () => {
     let handleImage = async (image) => {
         let file  = image;
         firebase.imageHandle(file)
-        alert('refresh page')
+        displayImage()
     }
     
     let displayImage = async () => {
